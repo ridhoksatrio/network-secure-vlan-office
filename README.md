@@ -80,7 +80,7 @@ Before/after example (Guest to Staff):
 ## How to reproduce
 
 1. Install Cisco Packet Tracer 9.0.1.0858 (free account at NetAcad).
-2. Open `topology/secure-vlan-office-v3-after-acl.pkt` for the finished lab, or `topology/secure-vlan-office-v2-before-acl.pkt` for the state before ACLs.
+2. 2. Open `topology/secure-vlan-office-v3-after-acl.pkt` (the finished lab, with ACLs and hardening applied). The "before ACL" state is documented with screenshots 11-14 in `screenshots/`.
 3. Credentials are not stored in this repository. Set your own with `username admin secret <your-password>` and `enable secret <your-password>` on R1, SW1 and SW2.
 4. Follow the checks in [docs/access-matrix.md](docs/access-matrix.md).
 
@@ -119,9 +119,7 @@ network-secure-vlan-office/
 ├── README.md
 ├── LICENSE
 ├── topology/
-│   ├── secure-vlan-office-v1.pkt
-│   ├── secure-vlan-office-v2-before-acl.pkt
-│   └── secure-vlan-office-v3-after-acl.pkt
+│   ├── secure-vlan-office.pkt
 ├── docs/
 │   ├── ip-plan.md
 │   ├── access-matrix.md
