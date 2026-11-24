@@ -129,7 +129,3 @@ network-secure-vlan-office/
 ```
 
 <!-- Add configs/ only if you export sanitized configs (placeholders instead of passwords). Remove any file or folder above that you do not have. -->
-
-## License
-
-MIT
